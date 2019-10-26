@@ -22,6 +22,7 @@
         void add_prof(int id);
         void add_escol(int id);
         void empar();
+        // void make_dot();
     };
     vector<string> normalize( string line);
 #endif

@@ -45,19 +45,20 @@ Professor* Escola::pref(Professor *node){
 }
 Professor::Professor(int id){
     this -> id = id;
+    esc_escolhida = NULL;
     excl = 0;
 }
 void Professor::print(){
     cout << "Professor " << id << ":" << endl;
-    cout << "Escolas de Preferencia " << esc_pref.size() << endl;
-    int cont = 1;
-    for(auto i : esc_pref){
-        cout << "Escola[" <<cont<<"]: "<< i << endl;
-        cont++;
-    }
-    cout << "Qualificacoes: " << qualif << endl;
-    if(this -> esc_escolhida != NULL){
-        cout << "escola escolhida" << endl;
-        cout << esc_escolhida << endl;
-    }
+    // cout << "Escolas de Preferencia " << esc_pref.size() << endl;
+    // int cont = 1;
+    // for(auto i : esc_pref){
+    //     cout << "Escola[" <<cont<<"]: "<< i << endl;
+    //     cont++;
+    // }
+    // cout << "Qualificacoes: " << qualif << endl;
+    // if(this -> esc_escolhida != NULL){
+    //     cout << "escola escolhida: " << endl;
+    //     cout << esc_escolhida -> id << endl;
+    // }
 }

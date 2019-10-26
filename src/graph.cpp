@@ -31,18 +31,16 @@ void Graph::empar(){
         Professor *aux = professores.front();
         if(aux -> esc_escolhida == NULL){
             if(aux -> excl < aux ->esc_pref.size()){
-                Professor *res_pref = escolas[aux -> esc_pref[aux -> excl]] ->pref(aux); 
+                Professor *res_pref = escolas[aux -> esc_pref[aux -> excl]-1] ->pref(aux); 
                 if( res_pref ==  NULL){
-                    cout << "ola" << endl;
                     professores.pop();
                 }
                 else if(res_pref != aux){
-                    cout << "alo" << endl;
+                    professores.pop();
                     professores.push(res_pref);
                 }
             }
             else{
-                cout << "loa" << endl;
                 if(!professores.empty()){
                     professores.pop();
                 }
@@ -87,7 +85,6 @@ Graph::Graph(){
                     int esc_id = stoi(words[i].substr(1,words[i].length()-1));
                     professores[id] -> esc_pref.push_back(esc_id);
                 }
-                professores[id] -> print();
             }
             if(words[0][0] == 'E'){
                 int id = stoi(words[0].substr(1,words[0].length()))-1;
@@ -100,3 +97,38 @@ Graph::Graph(){
         nodes.close();
     }
 }
+// void Graph::make_dot() {
+
+//     ofstream out;
+//     out.open("Graph.dot");
+
+//     out << "graph Initial_Graph{\n";
+//     out << "rankdir=LR;\n";
+//     out << "ranksep = 4\n";
+//     out << "\t" << "Ciencia_da_Computacao\n";
+//     out << "subgraph cluster_0{\n";
+//     for(auto i : professores)
+//         out << "Prof" << i ->id << ";";
+//     out << "\n}\n";
+//     out << "subgraph cluster_1{\n";
+//     for(auto i : escolas)
+//         out << "Esc" <<  i ->id << ";";
+//     out << "\n}\n";
+//     for(auto i : professores){
+//             if(i -> esc_escolhida != NULL)
+//                 out << "\t" << "Prof" <<i -> id << " -- " << "Esc"<<i->esc_escolhida -> id << " [label = " << i -> qualif <<", color=red, penwidth = 3.0 ];\n";
+
+//             for(auto j : i -> esc_pref) {
+//                 if(i -> esc_escolhida != NULL)
+//                     if(j == i-> esc_escolhida->id){
+//                     }else
+//                         out << "\t" << "Prof" << i -> id << " -- " << "Esc" << escolas[j-1] -> id << " [label = " << i -> qualif << "];\n";
+//                 else
+//                     out << "\t" << "Prof" << i -> id << " -- " << "Esc" << escolas[j-1] -> id << " [label = " << i -> qualif << "];\n";
+                 
+//             }
+//     }
+//     out << "}\n";
+//     out.close(); 
+//     system("dot -Tpng Graph.dot -o graph.png");
+// }
