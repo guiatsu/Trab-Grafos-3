@@ -21,7 +21,10 @@
         Graph();
         void add_prof(int id);
         void add_escol(int id);
+        bool tem_esc_vazia();
         void empar();
+        Escola *primeira_esc_vazia();
+
         // void make_dot();
     };
     vector<string> normalize( string line);

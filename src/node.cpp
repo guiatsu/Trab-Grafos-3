@@ -2,63 +2,90 @@
 Escola::Escola(int id){
     this -> id = id;
 }
+bool Escola::vazia(){
+    for(auto i : vagas){
+        if(i -> prof != NULL){
+            return false;
+        }
+    }
+    return true;
+}
 void Escola::print(){
     cout << "Escola " << id << ":" << endl;
     cout << "Vagas-Requisitos: " << vagas.size() << endl;
     int cont = 1;
     for(auto i : vagas){
-        cout << "Vaga[" <<cont<<"]: " << i << " Qualificacoes" << endl;
+        cout << "Vaga[" <<cont<<"]: " << i -> hab -> hab << " Habilitacoes" << endl;
         cont++;
     }
-    if(!this ->professores.empty()){
-        cout << "professores contratados" << endl;
-        for(auto i : professores){
-            if(i != NULL)
-            cout << i ->id << endl;
-        }
+    for(auto i : vagas){
+        if(i -> prof != NULL)
+            cout <<"Professor contratado: " <<  i -> prof -> id << endl;
     }
 }
-Professor* Escola::pref(Professor *node){
-    int id = node ->id;
-    for(int i = 0; i < vagas.size();i++){
-        if(professores[i] == NULL){
-            if(((node ->qualif - vagas[i])+1) > 0){
-                professores[i] = node;
-                node ->esc_escolhida = this;
-                node -> excl +=1;
-                return NULL; 
-            }
-        }
-        else{
-            if(((node ->qualif - vagas[i] +1)> 0) && ((node ->qualif - vagas[i] +1) < (professores[i] -> qualif - vagas[i] + 1))){
-                professores[i] -> esc_escolhida = NULL;
-                Professor *aux = professores[i]; 
-                professores[i] = node;
-                node -> excl += 1;
-                node -> esc_escolhida = this;
-                return aux;
-            }
-        }
-    } 
-    node -> excl+=1;
-    return node;
-}
+
 Professor::Professor(int id){
     this -> id = id;
     esc_escolhida = NULL;
     excl = 0;
 }
+void Professor::pior_escola(){
+    Escola *aux = quer_prof[0];
+    int index = -5;
+    int pref = -5;
+    for(int i = 0; i<quer_prof.size(); i++){
+        for(int j = 0; j< esc_pref.size(); j++){
+            if(quer_prof[i] -> id == esc_pref[j]){
+                if(j > pref){
+                    index = i;
+                    pref = j;
+                }
+            }
+        }
+    }
+    for(auto i : quer_prof[index] ->vagas){
+        if(i -> prof == this){
+            i -> prof = NULL;
+        }
+    }
+    quer_prof.erase(quer_prof.begin()+index);
+}
+void Professor::delete_suc(Escola *esc){
+    int index = 0;
+    for(int i = 0;i < esc_pref.size(); i++){
+        if(esc_pref[i] == esc -> id){
+            index = i;
+        }
+        for(auto j = 0;j < esc_pref.size(); j++){
+            if(j > index){
+                esc_pref.erase(esc_pref.begin()+j);
+            }
+        }
+    }
+}
+
+bool Professor::quer_esc(Escola *esc){
+    for(auto i : esc_pref){
+        if(esc -> id == i){
+            return true;
+        }
+    }
+    return false;
+}
 void Professor::print(){
     cout << "Professor " << id << ":" << endl;
-    // cout << "Escolas de Preferencia " << esc_pref.size() << endl;
-    // int cont = 1;
-    // for(auto i : esc_pref){
-    //     cout << "Escola[" <<cont<<"]: "<< i << endl;
-    //     cont++;
-    // }
-    // cout << "Qualificacoes: " << qualif << endl;
-    // if(this -> esc_escolhida != NULL){
-    //     cout << "escola escolhida: " << endl;
-    //     cout << esc_escolhida -> id << endl;
-    // }
+    cout << "Escolas de Preferencia " << esc_pref.size() << endl;
+    int cont = 1;
+    for(auto i : esc_pref){
+        cout << "Escola[" <<cont<<"]: "<< i << endl;
+        cont++;
+    }
+    cout << "Habilitacoes: " << hab -> hab << endl;
+    if(this -> esc_escolhida != NULL){
+        cout << "escola escolhida: " << endl;
+        cout << esc_escolhida -> id << endl;
+    }
+}
+Habilitacao::Habilitacao(int hab){
+    this -> hab = hab;
 }
