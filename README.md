@@ -31,3 +31,12 @@ make clean
 remove todos os objetos criados pela compilação e o executável.
 
 A saída do programa é exibida no terminal.
+
+Caso o usuário não possua Makefile instalado, a compilação pode ser feita da seguinte forma:
+```
+g++ main.cpp graph.cpp node_escola.cpp node_professor.cpp -o emparelha
+```
+E a execução:
+```
+./emparelha
+```
