@@ -8,7 +8,6 @@
 #include "vaga.hpp"
 
 class Professor;
-// struct vaga;
 
  class Escola {
 

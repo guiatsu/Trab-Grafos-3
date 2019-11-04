@@ -5,6 +5,7 @@
 using std::cout;
 using std::endl;
 
+// Verifica se o professor deseja trabalhar na escola
 bool Professor::aceitavel(Escola *node){
     for(auto i : esc_pref){
         if(node -> id == i)
@@ -13,12 +14,14 @@ bool Professor::aceitavel(Escola *node){
     return false;
 }
 
+// Constructor da classe professor
 Professor::Professor(int id){
     this -> id = id;
     esc_escolhida = NULL;
     excl = 0;
 }
 
+// Metodo que printa os dados de um objeto do tipo professor
 void Professor::print() {
 
     cout << "Professor " << id << ":" << endl;

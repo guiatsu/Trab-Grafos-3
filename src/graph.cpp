@@ -3,10 +3,13 @@
 #include "../includes/node_professor.hpp"
 #include "../includes/vaga.hpp"
 
+// Funcao que recebe uma string  (uma linha do arquivo texto original) e normaliza.
+// Isto e, tira parenteses e demais pontuacoes e volta apenas os dados necessarios para leitura.
 std::vector<std::string> normalize( std::string line){
+
     std::vector<std::string> aux;
-   std::regex reg(":|,");
-   std::regex reg2(" ");
+    std::regex reg(":|,");
+    std::regex reg2(" ");
     line = regex_replace(line,reg2,"");
     
    std::regex reg1("|\\(|\\)|");
@@ -23,6 +26,8 @@ std::vector<std::string> normalize( std::string line){
 
     return aux;
 }
+
+// Funcao responsavel pelo emparelhamento.
 
 void Graph::empar(){
     std::queue<Professor *> professores;
@@ -102,15 +107,22 @@ void Graph::empar(){
         }
     }
 }
+
+// Funcao que adiciona um no do tipo professor no grafo
 void Graph::add_prof(int id){
     Professor *aux = new Professor(id);
     professores.push_back(aux);
 }
+
+// Funcao que adiciona um no do tipo escola no grafo
 void Graph::add_escol(int id){
     Escola *aux = new Escola(id);
     escolas.push_back(aux);
 }
 
+// Constructor do grafo.
+// Abre o arquivo texto e envia as linhas para a funcao de normalizacao.
+// Apos receber a linha normalizada, adiciona os nos aos grafos.
 Graph::Graph(){
     std::fstream nodes;
     nodes.open("../files/professores.txt");
