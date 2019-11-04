@@ -1,5 +1,6 @@
 #include "../includes/node_escola.hpp"
 #include "../includes/node_professor.hpp"
+#include "../includes/vaga.hpp"
 
 using std::cout;
 using std::endl;

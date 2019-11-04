@@ -14,6 +14,9 @@
     #include "node_professor.hpp"
     #include "node_escola.hpp"
 
+    class Professor;
+    class Escola;
+
     class Graph {
 
         public:

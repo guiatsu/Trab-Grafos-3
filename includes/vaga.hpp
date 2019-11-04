@@ -3,6 +3,8 @@
 
 #include "node_professor.hpp"
 
+    class Professor;
+
     typedef struct Vaga{
         int hab;
         Professor *prof;

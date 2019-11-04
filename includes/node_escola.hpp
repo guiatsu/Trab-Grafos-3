@@ -7,6 +7,9 @@
 #include "node_professor.hpp"
 #include "vaga.hpp"
 
+class Professor;
+// struct vaga;
+
  class Escola {
 
         public:
