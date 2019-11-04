@@ -2,7 +2,7 @@
 
 #### TAG2-2019
 
-<i>Trabalho 1 da matéria de Teoria e Aplicação de Grafos, segundo semestre de 2019, Universidade de Brasília - UnB</i>
+_Trabalho 3 da matéria de Teoria e Aplicação de Grafos, segundo semestre de 2019, Universidade de Brasília - UnB_
 
 Alunos:
 
