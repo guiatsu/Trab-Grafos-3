@@ -1,5 +1,6 @@
 #ifndef GRAPH_HPP
 #define GRAPH_HPP
+
     #include <stack>
     #include <vector>
     #include <string>
@@ -9,21 +10,21 @@
     #include <cstring>
     #include <fstream>
     #include <regex>
-    #include "Node.hpp"
-    
-    using namespace std;
+
+    #include "node_professor.hpp"
+    #include "node_escola.hpp"
 
     class Graph {
 
         public:
-        vector<Escola *> escolas;
-        vector<Professor *> professores;
+        std::vector<Escola *> escolas;
+        std::vector<Professor *> professores;
         Graph();
         void add_prof(int id);
         void add_escol(int id);
         void empar();
-        
-        // void make_dot();
     };
-    vector<string> normalize( string line);
-#endif
+
+    std::vector<std::string> normalize( std::string line);
+
+#endif //GRAPH_HPP
