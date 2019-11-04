@@ -6,7 +6,7 @@
 
 Alunos:
 
-- Yuri Crystian Ribeiro e Silva, 18/0029479,  yuricrystian@hotmail.com\
+- Yuri Crystian Ribeiro e Silva, 18/0029479,  yuricrystian@hotmail.com
 - Luis Filipe Siqueira Ribeiro,  18/0053906,  luisfilipesrct@gmail.com
 
 ----------------------------------------------------------------------
