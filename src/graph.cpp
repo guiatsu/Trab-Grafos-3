@@ -3,7 +3,7 @@
 #include "../includes/node_professor.hpp"
 #include "../includes/vaga.hpp"
 
-// Funcao que recebe uma string  (uma linha do arquivo texto original) e normaliza.
+// Metodo que recebe uma string  (uma linha do arquivo texto original) e normaliza.
 // Isto e, tira parenteses e demais pontuacoes e volta apenas os dados necessarios para leitura.
 std::vector<std::string> normalize( std::string line){
 
