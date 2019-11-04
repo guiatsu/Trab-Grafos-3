@@ -27,8 +27,7 @@ std::vector<std::string> normalize( std::string line){
     return aux;
 }
 
-// Funcao responsavel pelo emparelhamento.
-
+// Metodo responsavel pelo emparelhamento.
 void Graph::empar(){
     std::queue<Professor *> professores;
     std::queue<Professor *> profs;
