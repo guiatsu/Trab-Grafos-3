@@ -5,6 +5,9 @@ Escola[2]: 20
 Escola[3]: 1
 Escola[4]: 3
 Qualificacoes: 3
+escola escolhida: 
+3
+
 Professor 2:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -12,6 +15,8 @@ Escola[2]: 20
 Escola[3]: 2
 Escola[4]: 5
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 3:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -19,6 +24,9 @@ Escola[2]: 20
 Escola[3]: 3
 Escola[4]: 7
 Qualificacoes: 2
+escola escolhida: 
+10
+
 Professor 4:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -26,6 +34,9 @@ Escola[2]: 20
 Escola[3]: 4
 Escola[4]: 9
 Qualificacoes: 2
+escola escolhida: 
+20
+
 Professor 5:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -33,6 +44,9 @@ Escola[2]: 20
 Escola[3]: 5
 Escola[4]: 11
 Qualificacoes: 3
+escola escolhida: 
+20
+
 Professor 6:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -40,6 +54,9 @@ Escola[2]: 5
 Escola[3]: 6
 Escola[4]: 27
 Qualificacoes: 2
+escola escolhida: 
+5
+
 Professor 7:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -47,6 +64,9 @@ Escola[2]: 5
 Escola[3]: 7
 Escola[4]: 37
 Qualificacoes: 2
+escola escolhida: 
+37
+
 Professor 8:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -54,6 +74,9 @@ Escola[2]: 5
 Escola[3]: 35
 Escola[4]: 17
 Qualificacoes: 2
+escola escolhida: 
+35
+
 Professor 9:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -61,6 +84,8 @@ Escola[2]: 5
 Escola[3]: 35
 Escola[4]: 21
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 10:
 Escolas de Preferencia 4
 Escola[1]: 10
@@ -68,6 +93,9 @@ Escola[2]: 7
 Escola[3]: 35
 Escola[4]: 23
 Qualificacoes: 3
+escola escolhida: 
+7
+
 Professor 11:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -75,6 +103,9 @@ Escola[2]: 11
 Escola[3]: 35
 Escola[4]: 25
 Qualificacoes: 2
+escola escolhida: 
+25
+
 Professor 12:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -82,6 +113,9 @@ Escola[2]: 12
 Escola[3]: 35
 Escola[4]: 27
 Qualificacoes: 2
+escola escolhida: 
+27
+
 Professor 13:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -89,6 +123,9 @@ Escola[2]: 30
 Escola[3]: 35
 Escola[4]: 29
 Qualificacoes: 2
+escola escolhida: 
+30
+
 Professor 14:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -96,6 +133,9 @@ Escola[2]: 30
 Escola[3]: 48
 Escola[4]: 31
 Qualificacoes: 2
+escola escolhida: 
+48
+
 Professor 15:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -103,6 +143,8 @@ Escola[2]: 30
 Escola[3]: 48
 Escola[4]: 33
 Qualificacoes: 3
+DESEMPREGADO
+
 Professor 16:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -110,6 +152,8 @@ Escola[2]: 35
 Escola[3]: 48
 Escola[4]: 35
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 17:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -117,6 +161,9 @@ Escola[2]: 17
 Escola[3]: 48
 Escola[4]: 37
 Qualificacoes: 2
+escola escolhida: 
+37
+
 Professor 18:
 Escolas de Preferencia 4
 Escola[1]: 35
@@ -124,6 +171,9 @@ Escola[2]: 18
 Escola[3]: 48
 Escola[4]: 39
 Qualificacoes: 2
+escola escolhida: 
+39
+
 Professor 19:
 Escolas de Preferencia 4
 Escola[1]: 35
@@ -131,6 +181,9 @@ Escola[2]: 19
 Escola[3]: 10
 Escola[4]: 41
 Qualificacoes: 2
+escola escolhida: 
+19
+
 Professor 20:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -138,6 +191,9 @@ Escola[2]: 30
 Escola[3]: 10
 Escola[4]: 43
 Qualificacoes: 3
+escola escolhida: 
+43
+
 Professor 21:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -145,6 +201,9 @@ Escola[2]: 21
 Escola[3]: 10
 Escola[4]: 45
 Qualificacoes: 1
+escola escolhida: 
+10
+
 Professor 22:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -152,6 +211,9 @@ Escola[2]: 22
 Escola[3]: 10
 Escola[4]: 47
 Qualificacoes: 2
+escola escolhida: 
+22
+
 Professor 23:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -159,6 +221,9 @@ Escola[2]: 23
 Escola[3]: 10
 Escola[4]: 49
 Qualificacoes: 2
+escola escolhida: 
+23
+
 Professor 24:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -166,6 +231,9 @@ Escola[2]: 40
 Escola[3]: 10
 Escola[4]: 2
 Qualificacoes: 2
+escola escolhida: 
+40
+
 Professor 25:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -173,6 +241,8 @@ Escola[2]: 40
 Escola[3]: 10
 Escola[4]: 4
 Qualificacoes: 3
+DESEMPREGADO
+
 Professor 26:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -180,6 +250,9 @@ Escola[2]: 45
 Escola[3]: 23
 Escola[4]: 6
 Qualificacoes: 2
+escola escolhida: 
+45
+
 Professor 27:
 Escolas de Preferencia 4
 Escola[1]: 30
@@ -187,11 +260,16 @@ Escola[2]: 45
 Escola[3]: 23
 Escola[4]: 8
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 28:
 Escolas de Preferencia 2
 Escola[1]: 28
 Escola[2]: 12
 Qualificacoes: 2
+escola escolhida: 
+28
+
 Professor 29:
 Escolas de Preferencia 4
 Escola[1]: 45
@@ -199,6 +277,9 @@ Escola[2]: 29
 Escola[3]: 23
 Escola[4]: 14
 Qualificacoes: 2
+escola escolhida: 
+29
+
 Professor 30:
 Escolas de Preferencia 4
 Escola[1]: 45
@@ -206,6 +287,9 @@ Escola[2]: 3
 Escola[3]: 31
 Escola[4]: 16
 Qualificacoes: 3
+escola escolhida: 
+45
+
 Professor 31:
 Escolas de Preferencia 4
 Escola[1]: 50
@@ -213,6 +297,8 @@ Escola[2]: 31
 Escola[3]: 41
 Escola[4]: 18
 Qualificacoes: 1
+DESEMPREGADO
+
 Professor 32:
 Escolas de Preferencia 4
 Escola[1]: 50
@@ -220,6 +306,9 @@ Escola[2]: 32
 Escola[3]: 31
 Escola[4]: 19
 Qualificacoes: 2
+escola escolhida: 
+50
+
 Professor 33:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -227,6 +316,9 @@ Escola[2]: 50
 Escola[3]: 33
 Escola[4]: 31
 Qualificacoes: 2
+escola escolhida: 
+33
+
 Professor 34:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -234,6 +326,9 @@ Escola[2]: 50
 Escola[3]: 34
 Escola[4]: 31
 Qualificacoes: 2
+escola escolhida: 
+50
+
 Professor 35:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -241,6 +336,8 @@ Escola[2]: 50
 Escola[3]: 35
 Escola[4]: 31
 Qualificacoes: 3
+DESEMPREGADO
+
 Professor 36:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -248,6 +345,9 @@ Escola[2]: 50
 Escola[3]: 36
 Escola[4]: 28
 Qualificacoes: 2
+escola escolhida: 
+36
+
 Professor 37:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -255,6 +355,9 @@ Escola[2]: 2
 Escola[3]: 37
 Escola[4]: 32
 Qualificacoes: 2
+escola escolhida: 
+2
+
 Professor 38:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -262,12 +365,18 @@ Escola[2]: 2
 Escola[3]: 38
 Escola[4]: 34
 Qualificacoes: 2
+escola escolhida: 
+38
+
 Professor 39:
 Escolas de Preferencia 3
 Escola[1]: 39
 Escola[2]: 21
 Escola[3]: 36
 Qualificacoes: 2
+escola escolhida: 
+39
+
 Professor 40:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -275,6 +384,9 @@ Escola[2]: 2
 Escola[3]: 11
 Escola[4]: 38
 Qualificacoes: 3
+escola escolhida: 
+11
+
 Professor 41:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -282,6 +394,9 @@ Escola[2]: 2
 Escola[3]: 41
 Escola[4]: 42
 Qualificacoes: 1
+escola escolhida: 
+40
+
 Professor 42:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -289,6 +404,9 @@ Escola[2]: 4
 Escola[3]: 42
 Escola[4]: 44
 Qualificacoes: 2
+escola escolhida: 
+4
+
 Professor 43:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -296,6 +414,9 @@ Escola[2]: 4
 Escola[3]: 43
 Escola[4]: 46
 Qualificacoes: 2
+escola escolhida: 
+43
+
 Professor 44:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -303,6 +424,8 @@ Escola[2]: 4
 Escola[3]: 11
 Escola[4]: 48
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 45:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -310,6 +433,9 @@ Escola[2]: 45
 Escola[3]: 11
 Escola[4]: 5
 Qualificacoes: 3
+escola escolhida: 
+11
+
 Professor 46:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -317,6 +443,9 @@ Escola[2]: 46
 Escola[3]: 11
 Escola[4]: 45
 Qualificacoes: 2
+escola escolhida: 
+46
+
 Professor 47:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -324,6 +453,9 @@ Escola[2]: 6
 Escola[3]: 1
 Escola[4]: 45
 Qualificacoes: 2
+escola escolhida: 
+6
+
 Professor 48:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -331,6 +463,9 @@ Escola[2]: 48
 Escola[3]: 1
 Escola[4]: 45
 Qualificacoes: 2
+escola escolhida: 
+1
+
 Professor 49:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -338,6 +473,8 @@ Escola[2]: 6
 Escola[3]: 1
 Escola[4]: 45
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 50:
 Escolas de Preferencia 4
 Escola[1]: 40
@@ -345,6 +482,8 @@ Escola[2]: 6
 Escola[3]: 1
 Escola[4]: 45
 Qualificacoes: 3
+DESEMPREGADO
+
 Professor 51:
 Escolas de Preferencia 4
 Escola[1]: 50
@@ -352,6 +491,8 @@ Escola[2]: 6
 Escola[3]: 49
 Escola[4]: 45
 Qualificacoes: 1
+DESEMPREGADO
+
 Professor 52:
 Escolas de Preferencia 4
 Escola[1]: 49
@@ -359,6 +500,8 @@ Escola[2]: 8
 Escola[3]: 48
 Escola[4]: 45
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 53:
 Escolas de Preferencia 4
 Escola[1]: 48
@@ -366,6 +509,9 @@ Escola[2]: 8
 Escola[3]: 47
 Escola[4]: 1
 Qualificacoes: 2
+escola escolhida: 
+47
+
 Professor 54:
 Escolas de Preferencia 4
 Escola[1]: 47
@@ -373,6 +519,8 @@ Escola[2]: 8
 Escola[3]: 46
 Escola[4]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 55:
 Escolas de Preferencia 4
 Escola[1]: 46
@@ -380,11 +528,16 @@ Escola[2]: 8
 Escola[3]: 45
 Escola[4]: 1
 Qualificacoes: 3
+escola escolhida: 
+46
+
 Professor 56:
 Escolas de Preferencia 2
 Escola[1]: 8
 Escola[2]: 2
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 57:
 Escolas de Preferencia 4
 Escola[1]: 44
@@ -392,6 +545,9 @@ Escola[2]: 8
 Escola[3]: 43
 Escola[4]: 25
 Qualificacoes: 2
+escola escolhida: 
+44
+
 Professor 58:
 Escolas de Preferencia 4
 Escola[1]: 43
@@ -399,6 +555,8 @@ Escola[2]: 8
 Escola[3]: 4
 Escola[4]: 25
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 59:
 Escolas de Preferencia 4
 Escola[1]: 42
@@ -406,6 +564,9 @@ Escola[2]: 8
 Escola[3]: 41
 Escola[4]: 25
 Qualificacoes: 2
+escola escolhida: 
+42
+
 Professor 60:
 Escolas de Preferencia 4
 Escola[1]: 8
@@ -413,12 +574,18 @@ Escola[2]: 40
 Escola[3]: 6
 Escola[4]: 25
 Qualificacoes: 3
+escola escolhida: 
+8
+
 Professor 61:
 Escolas de Preferencia 3
 Escola[1]: 40
 Escola[2]: 4
 Escola[3]: 15
 Qualificacoes: 1
+escola escolhida: 
+15
+
 Professor 62:
 Escolas de Preferencia 4
 Escola[1]: 39
@@ -426,12 +593,18 @@ Escola[2]: 12
 Escola[3]: 9
 Escola[4]: 15
 Qualificacoes: 2
+escola escolhida: 
+9
+
 Professor 63:
 Escolas de Preferencia 3
 Escola[1]: 38
 Escola[2]: 12
 Escola[3]: 15
 Qualificacoes: 2
+escola escolhida: 
+38
+
 Professor 64:
 Escolas de Preferencia 4
 Escola[1]: 37
@@ -439,12 +612,18 @@ Escola[2]: 12
 Escola[3]: 34
 Escola[4]: 11
 Qualificacoes: 2
+escola escolhida: 
+34
+
 Professor 65:
 Escolas de Preferencia 3
 Escola[1]: 36
 Escola[2]: 13
 Escola[3]: 15
 Qualificacoes: 3
+escola escolhida: 
+13
+
 Professor 66:
 Escolas de Preferencia 4
 Escola[1]: 35
@@ -452,18 +631,27 @@ Escola[2]: 12
 Escola[3]: 14
 Escola[4]: 15
 Qualificacoes: 2
+escola escolhida: 
+14
+
 Professor 67:
 Escolas de Preferencia 3
 Escola[1]: 34
 Escola[2]: 16
 Escola[3]: 15
 Qualificacoes: 2
+escola escolhida: 
+34
+
 Professor 68:
 Escolas de Preferencia 3
 Escola[1]: 33
 Escola[2]: 12
 Escola[3]: 34
 Qualificacoes: 2
+escola escolhida: 
+33
+
 Professor 69:
 Escolas de Preferencia 4
 Escola[1]: 32
@@ -471,6 +659,9 @@ Escola[2]: 12
 Escola[3]: 18
 Escola[4]: 15
 Qualificacoes: 2
+escola escolhida: 
+32
+
 Professor 70:
 Escolas de Preferencia 4
 Escola[1]: 31
@@ -478,12 +669,18 @@ Escola[2]: 12
 Escola[3]: 19
 Escola[4]: 15
 Qualificacoes: 3
+escola escolhida: 
+12
+
 Professor 71:
 Escolas de Preferencia 3
 Escola[1]: 30
 Escola[2]: 20
 Escola[3]: 35
 Qualificacoes: 1
+escola escolhida: 
+35
+
 Professor 72:
 Escolas de Preferencia 4
 Escola[1]: 12
@@ -491,6 +688,9 @@ Escola[2]: 1
 Escola[3]: 21
 Escola[4]: 35
 Qualificacoes: 2
+escola escolhida: 
+21
+
 Professor 73:
 Escolas de Preferencia 4
 Escola[1]: 28
@@ -498,12 +698,18 @@ Escola[2]: 7
 Escola[3]: 22
 Escola[4]: 35
 Qualificacoes: 2
+escola escolhida: 
+28
+
 Professor 74:
 Escolas de Preferencia 3
 Escola[1]: 27
 Escola[2]: 23
 Escola[3]: 35
 Qualificacoes: 2
+escola escolhida: 
+27
+
 Professor 75:
 Escolas de Preferencia 4
 Escola[1]: 26
@@ -511,6 +717,9 @@ Escola[2]: 13
 Escola[3]: 24
 Escola[4]: 35
 Qualificacoes: 3
+escola escolhida: 
+26
+
 Professor 76:
 Escolas de Preferencia 4
 Escola[1]: 25
@@ -518,6 +727,8 @@ Escola[2]: 13
 Escola[3]: 7
 Escola[4]: 35
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 77:
 Escolas de Preferencia 4
 Escola[1]: 24
@@ -525,6 +736,9 @@ Escola[2]: 7
 Escola[3]: 26
 Escola[4]: 35
 Qualificacoes: 2
+escola escolhida: 
+24
+
 Professor 78:
 Escolas de Preferencia 4
 Escola[1]: 23
@@ -532,6 +746,8 @@ Escola[2]: 13
 Escola[3]: 47
 Escola[4]: 27
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 79:
 Escolas de Preferencia 4
 Escola[1]: 22
@@ -539,6 +755,8 @@ Escola[2]: 27
 Escola[3]: 47
 Escola[4]: 28
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 80:
 Escolas de Preferencia 4
 Escola[1]: 21
@@ -546,6 +764,9 @@ Escola[2]: 27
 Escola[3]: 47
 Escola[4]: 35
 Qualificacoes: 3
+escola escolhida: 
+21
+
 Professor 81:
 Escolas de Preferencia 4
 Escola[1]: 20
@@ -553,6 +774,8 @@ Escola[2]: 27
 Escola[3]: 30
 Escola[4]: 11
 Qualificacoes: 1
+DESEMPREGADO
+
 Professor 82:
 Escolas de Preferencia 4
 Escola[1]: 19
@@ -560,6 +783,9 @@ Escola[2]: 27
 Escola[3]: 31
 Escola[4]: 20
 Qualificacoes: 2
+escola escolhida: 
+31
+
 Professor 83:
 Escolas de Preferencia 4
 Escola[1]: 18
@@ -567,12 +793,16 @@ Escola[2]: 27
 Escola[3]: 3
 Escola[4]: 20
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 84:
 Escolas de Preferencia 3
 Escola[1]: 17
 Escola[2]: 44
 Escola[3]: 20
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 85:
 Escolas de Preferencia 4
 Escola[1]: 16
@@ -580,12 +810,17 @@ Escola[2]: 3
 Escola[3]: 34
 Escola[4]: 20
 Qualificacoes: 3
+escola escolhida: 
+16
+
 Professor 86:
 Escolas de Preferencia 3
 Escola[1]: 15
 Escola[2]: 35
 Escola[3]: 20
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 87:
 Escolas de Preferencia 4
 Escola[1]: 14
@@ -593,6 +828,8 @@ Escola[2]: 44
 Escola[3]: 4
 Escola[4]: 20
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 88:
 Escolas de Preferencia 4
 Escola[1]: 44
@@ -600,6 +837,8 @@ Escola[2]: 4
 Escola[3]: 37
 Escola[4]: 20
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 89:
 Escolas de Preferencia 4
 Escola[1]: 12
@@ -607,12 +846,17 @@ Escola[2]: 44
 Escola[3]: 4
 Escola[4]: 20
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 90:
 Escolas de Preferencia 3
 Escola[1]: 11
 Escola[2]: 44
 Escola[3]: 4
 Qualificacoes: 3
+escola escolhida: 
+44
+
 Professor 91:
 Escolas de Preferencia 4
 Escola[1]: 47
@@ -620,6 +864,8 @@ Escola[2]: 4
 Escola[3]: 40
 Escola[4]: 1
 Qualificacoes: 1
+DESEMPREGADO
+
 Professor 92:
 Escolas de Preferencia 4
 Escola[1]: 9
@@ -627,12 +873,17 @@ Escola[2]: 4
 Escola[3]: 41
 Escola[4]: 1
 Qualificacoes: 2
+escola escolhida: 
+41
+
 Professor 93:
 Escolas de Preferencia 3
 Escola[1]: 8
 Escola[2]: 42
 Escola[3]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 94:
 Escolas de Preferencia 4
 Escola[1]: 7
@@ -640,6 +891,8 @@ Escola[2]: 47
 Escola[3]: 4
 Escola[4]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 95:
 Escolas de Preferencia 4
 Escola[1]: 6
@@ -647,6 +900,9 @@ Escola[2]: 47
 Escola[3]: 44
 Escola[4]: 1
 Qualificacoes: 3
+escola escolhida: 
+47
+
 Professor 96:
 Escolas de Preferencia 4
 Escola[1]: 5
@@ -654,6 +910,8 @@ Escola[2]: 47
 Escola[3]: 45
 Escola[4]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 97:
 Escolas de Preferencia 4
 Escola[1]: 4
@@ -661,18 +919,24 @@ Escola[2]: 14
 Escola[3]: 46
 Escola[4]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 98:
 Escolas de Preferencia 3
 Escola[1]: 4
 Escola[2]: 48
 Escola[3]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 99:
 Escolas de Preferencia 3
 Escola[1]: 2
 Escola[2]: 49
 Escola[3]: 1
 Qualificacoes: 2
+DESEMPREGADO
+
 Professor 100:
 Escolas de Preferencia 4
 Escola[1]: 1
@@ -680,3 +944,307 @@ Escola[2]: 4
 Escola[3]: 50
 Escola[4]: 10
 Qualificacoes: 3
+DESEMPREGADO
+
+Escola 1: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+48
+
+Escola 2: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+37
+
+Escola 3: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+professores contratados
+1
+
+Escola 4: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+42
+
+Escola 5: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+6
+
+Escola 6: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+47
+
+Escola 7: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+professores contratados
+10
+
+Escola 8: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+professores contratados
+60
+
+Escola 9: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+62
+
+Escola 10: Vagas-Requisitos: 2
+Vaga[1]: 1 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+21
+3
+
+Escola 11: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+40
+45
+
+Escola 12: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+70
+
+Escola 13: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+65
+65
+
+Escola 14: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+66
+
+Escola 15: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+61
+
+Escola 16: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+professores contratados
+85
+
+Escola 17: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+Nao Foram Contratados
+
+Escola 18: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+Nao Foram Contratados
+
+Escola 19: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+19
+
+Escola 20: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+5
+4
+
+Escola 21: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+80
+72
+
+Escola 22: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+22
+
+Escola 23: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+23
+
+Escola 24: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+77
+
+Escola 25: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+11
+
+Escola 26: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+75
+
+Escola 27: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+12
+74
+
+Escola 28: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+28
+73
+
+Escola 29: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+29
+
+Escola 30: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+13
+
+Escola 31: Vagas-Requisitos: 1
+Vaga[1]: 2 Qualificacoes
+professores contratados
+82
+
+Escola 32: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+69
+
+Escola 33: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+68
+33
+
+Escola 34: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+64
+67
+
+Escola 35: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+8
+71
+
+Escola 36: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+36
+
+Escola 37: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+7
+17
+
+Escola 38: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+38
+63
+
+Escola 39: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+18
+39
+
+Escola 40: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 1 Qualificacoes
+professores contratados
+24
+41
+
+Escola 41: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+92
+
+Escola 42: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+59
+
+Escola 43: Vagas-Requisitos: 2
+Vaga[1]: 3 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+20
+43
+
+Escola 44: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+57
+90
+
+Escola 45: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+26
+30
+
+Escola 46: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+46
+55
+
+Escola 47: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 3 Qualificacoes
+professores contratados
+53
+95
+
+Escola 48: Vagas-Requisitos: 1
+Vaga[1]: 1 Qualificacoes
+professores contratados
+14
+
+Escola 49: Vagas-Requisitos: 1
+Vaga[1]: 3 Qualificacoes
+Nao Foram Contratados
+
+Escola 50: Vagas-Requisitos: 2
+Vaga[1]: 2 Qualificacoes
+Vaga[2]: 2 Qualificacoes
+professores contratados
+32
+34
+
+66 Professores foram contratados sem desestabilizar o emparelhamento

@@ -24,6 +24,8 @@ vector<string> normalize( string line){
 }
 void Graph::empar(){
     queue<Professor *> professores;
+    queue<Professor *> profs;
+    queue<Escola *> escs;
     for(auto i : this -> professores){
         professores.push(i);
     }
@@ -45,6 +47,54 @@ void Graph::empar(){
                     professores.pop();
                 }
             }
+        }
+    }
+    for(auto i : this -> escolas){
+        if(i -> vazia()){
+            escs.push(i);
+        }
+    }
+    while(!escs.empty()){
+        bool flag = false;
+        for(auto i : this -> professores){
+            if(i -> esc_escolhida == NULL && escs.front() ->aceitavel(i) && i ->aceitavel(escs.front())){
+                for(auto j : escs.front() -> vagas){
+                    if(j -> hab <= i -> qualif){
+                        i -> esc_escolhida = escs.front();
+                        j -> prof = i;
+                    }
+                }
+                escs.pop();
+                flag = true;
+                break;
+            }
+            else if(i -> esc_escolhida != NULL && escs.front() ->aceitavel(i) && i ->aceitavel(escs.front())){
+                int cont = 0;
+                for(auto j : i -> esc_escolhida -> vagas){
+                    if(j -> prof != NULL){
+                        cont++;
+                    }
+                }
+                if(cont > 1){
+                    for(auto j : i -> esc_escolhida -> vagas){
+                        if(i == j -> prof){
+                            j -> prof = NULL;
+                            for(auto k : escs.front() -> vagas){
+                                if(k -> hab <= i -> qualif){
+                                    i -> esc_escolhida = escs.front();
+                                    k -> prof = i;
+                                }
+                            }
+                            escs.pop();
+                            flag = true;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        if(!flag){
+            escs.pop();
         }
     }
 }
@@ -89,46 +139,13 @@ Graph::Graph(){
             if(words[0][0] == 'E'){
                 int id = stoi(words[0].substr(1,words[0].length()))-1;
                 for(int i = 1; i < words.size();i++){
-                    escolas[id] -> vagas.push_back(stoi(words[i]));
-                    escolas[id] -> professores.push_back(NULL);
+                    vaga *aux = new vaga;
+                    aux ->hab = stoi(words[i]);
+                    aux ->prof = NULL;
+                    escolas[id] -> vagas.push_back(aux);
                 }
             }
         }
         nodes.close();
     }
 }
-// void Graph::make_dot() {
-
-//     ofstream out;
-//     out.open("Graph.dot");
-
-//     out << "graph Initial_Graph{\n";
-//     out << "rankdir=LR;\n";
-//     out << "ranksep = 4\n";
-//     out << "\t" << "Ciencia_da_Computacao\n";
-//     out << "subgraph cluster_0{\n";
-//     for(auto i : professores)
-//         out << "Prof" << i ->id << ";";
-//     out << "\n}\n";
-//     out << "subgraph cluster_1{\n";
-//     for(auto i : escolas)
-//         out << "Esc" <<  i ->id << ";";
-//     out << "\n}\n";
-//     for(auto i : professores){
-//             if(i -> esc_escolhida != NULL)
-//                 out << "\t" << "Prof" <<i -> id << " -- " << "Esc"<<i->esc_escolhida -> id << " [label = " << i -> qualif <<", color=red, penwidth = 3.0 ];\n";
-
-//             for(auto j : i -> esc_pref) {
-//                 if(i -> esc_escolhida != NULL)
-//                     if(j == i-> esc_escolhida->id){
-//                     }else
-//                         out << "\t" << "Prof" << i -> id << " -- " << "Esc" << escolas[j-1] -> id << " [label = " << i -> qualif << "];\n";
-//                 else
-//                     out << "\t" << "Prof" << i -> id << " -- " << "Esc" << escolas[j-1] -> id << " [label = " << i -> qualif << "];\n";
-                 
-//             }
-//     }
-//     out << "}\n";
-//     out.close(); 
-//     system("dot -Tpng Graph.dot -o graph.png");
-// }

@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "regex": "cpp",
+        "ostream": "cpp",
+        "queue": "cpp"
     }
 }
